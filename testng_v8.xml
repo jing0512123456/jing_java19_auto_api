@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="前程贷项目接口测试">
+    <test name="注册接口测试">
+        <classes>
+        <class name = "com.jing.cases.RegisterCase">  </class>
+            <parameter name="sheetindex" value="0"></parameter>
+        </classes>
+    </test>
+    <test name="登录接口测试">
+        <classes>
+            <class name = "com.jing.cases.LoginCase">  </class>
+            <parameter name="sheetindex" value="1"></parameter>
+        </classes>
+    </test>
+    <test name="充值接口测试">
+        <classes>
+            <class name = "com.jing.cases.RechargeCase">  </class>
+            <parameter name="sheetindex" value="2"></parameter>
+        </classes>
+    </test>
+    <test name="新增项目接口测试">
+        <classes>
+            <class name = "com.jing.cases.AddItemCase">  </class>
+            <parameter name="sheetindex" value="3"></parameter>
+        </classes>
+    </test>
+    <test name="管理员登录接口测试">
+        <classes>
+            <class name = "com.jing.cases.LoginCase">  </class>
+            <parameter name="sheetindex" value="4"></parameter>
+        </classes>
+    </test>
+    <test name="审核项目接口测试">
+        <classes>
+            <class name = "com.jing.cases.AuditCase">  </class>
+            <parameter name="sheetindex" value="5"></parameter>
+        </classes>
+    </test>
+    <test name="投资接口测试">
+        <classes>
+            <class name = "com.jing.cases.InvestCase">  </class>
+            <parameter name="sheetindex" value="6"></parameter>
+        </classes>
+    </test>
+</suite>
